@@ -1,0 +1,38 @@
+
+/* Color Palette TEMP */
+div.primary, nav.primary {
+    background-color: #659DBD;
+}
+div.secondary {
+    background-color: #BC986A;
+}
+
+a.header {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+a.primary, p.primary {
+    color: #ffffff;
+    font-size: 1em;
+}
+a.secondary, p.secondary {
+    color: #DAAD86;
+}
+
+idek {
+    color: #FBEEC1;
+}
+
+.nav-item > a:hover {
+    color: #a4a4a4;
+}
+
+
+@media (max-width: 990px) {
+    /* Your CSS rules here will only apply when the viewport is 768px or less */
+    .nav-item {
+        /* Example rule: */
+        margin-right: 13vh;
+    }
+}
