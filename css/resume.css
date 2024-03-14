@@ -106,12 +106,22 @@ li.experience-content {
     #summary {
         order: 2;
     }
-    #skills {
-        order: 4;
-    }
     #experience {
         order: 3;
     }
+    #education {
+        order: 4;
+    }
+    #skills {
+        order: 5;
+    }
+    #tools {
+        order: 6;
+    }
+    #coursework {
+        order: 7;
+    }
+
 
     .name {
         text-align: center;
