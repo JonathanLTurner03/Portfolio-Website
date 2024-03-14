@@ -2,7 +2,7 @@ app.component("featured-element", {
    props: {
        featured: {
            type: Array,
-           required: true
+           required: false
        }
    }, data() {
        return {
