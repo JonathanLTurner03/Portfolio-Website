@@ -4,7 +4,11 @@ const app = Vue.createApp({
             name: {
                 first: 'Jonathan',
                 last: 'Turner'
-            }
+            },
+            // Socials
+            github: 'JonathanLTurner03',
+            linkedin: 'LTurnerJonathan',
+            email: 'turner@atlantissrv.com'
         }
     }
 });
