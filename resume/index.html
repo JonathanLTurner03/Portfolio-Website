@@ -2,16 +2,99 @@
 <html lang="en">
 <head>
     <title>Turner's Resume</title>
-    <script type="module" src="../scripts/main.js"></script>
+    <script type="module" src="/scripts/main.js"></script>
     <!-- Used in a Development Environment -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://kit.fontawesome.com/df22f9fd8e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/css/resume.css">
 </head>
 <body>
 <div id="app">
     <!-- Add a navigation bar to the top of the page -->
     <header-element page="resume"></header-element>
-    <div class="main-divider"></div>
+
+    <h1 class="poppins-extrabold name">Jonathan Turner</h1>
+    <div class="container col-xxl-6 px-4 py-3">
+        <h2 class="poppins-light-italic degree border-top border-bottom">Computer Science</h2>
+    </div>
+    <div class="container col-xxl-7 px-4 py-3">
+        <div class="row row-cols-md-2 resume">
+            <div id="contact">
+                <h4 class="poppins-bold resumeSubtitle">Contact</h4>
+                <p class="poppins-regular mb-1">678-378-3789</p>
+                <p class="poppins-regular mb-1">turner@atlantissrv.com</p>
+                <p class="poppins-regular mb-1">www.atlantissrv.com</p>
+                <p class="poppins-regular mb-1 mark">in/lturnerjonathan/</p>
+            </div>
+            <div id="summary" class="align-self-md-start">
+                <h4 class="poppins-bold resumeSubtitle">Summary</h4>
+                <p class="poppins-regular">
+                    Aspiring programmer graduating from Kennesaw State University in Spring of 2025. I am seeking
+                    opportunities that allow me to apply, develop, and expand my skills within the areas of different
+                    language platforms and infrastructures.
+                </p>
+            </div>
+            <div id="skills">
+                <h4 class="poppins-bold resumeSubtitle">Skills</h4>
+                <p class="poppins-regular">Java</p>
+                <p class="poppins-regular">Python</p>
+                <p class="poppins-regular">HTML</p>
+                <p class="poppins-regular">CSS - Bootstrap</p>
+                <p class="poppins-regular">JavaScript - VueJS</p>
+                <p class="poppins-regular">MySQL - MariaDB</p>
+                <p class="poppins-regular">Version Control</p>
+                <p class="poppins-regular">VM - VDI - VPN</p>
+            </div>
+            <div id="experience">
+                <h4 class="poppins-bold resumeSubtitle">Experience</h4>
+                <p class="poppins-regular-italic pb-0 mb-0">Geek Squad</p>
+                <p class="poppins-regular pb-0 mb-0">Consultation Agent & Advanced Repair Agent</p>
+                <p class="poppins-bold mb-0">April 2021 - Present</p>
+                <ul class="experience-content">
+                    <li class="poppins-regular experience-content">Diagnosed and resolved technical hardware and software problems
+                        utilizing learned troubleshooting techniques and specialty software. </li>
+                    <li class="poppins-regular experience-content">Conducted in-depth consultations with customers experiencing
+                        technological challenges, actively listening to understand their needs, frustrations,
+                        and goals.</li>
+                    <li class="poppins-regular experience-content">Provided consistent and accurate communication and documentation
+                        to internal staff and customers.</li>
+                </ul>
+            </div>
+            <div id="tools">
+                <h4 class="poppins-bold resumeSubtitle">Tools</h4>
+                <p class="poppins-regular">Jetbrains</p>
+                <p class="poppins-regular">Visual Studio Code</p>
+                <p class="poppins-regular">Eclipse</p>
+                <p class="poppins-regular">VMBox</p>
+                <p class="poppins-regular">Git CLI - GitHub</p>
+                <p class="poppins-regular">Microsoft Office</p>
+            </div>
+            <div id="coursework">
+                <h4 class="poppins-bold resumeSubtitle">Relevant Coursework</h4>
+                <ul class="coursework-content">
+                    <li class="poppins-regular">Algorithm Design & Analysis</li>
+                    <li class="poppins-regular">Parallel & Distributed Computing</li>
+                    <li class="poppins-regular">Operating Systems</li>
+                    <li class="poppins-regular">Fundamentals of Data Communication</li>
+                    <li class="poppins-regular">Computer Organization & Architecture</li>
+                    <li class="poppins-regular">Intro to Software Engineering</li>
+                    <li class="poppins-regular">Probability & Data Analysis</li>
+
+                </ul>
+            </div>
+            <div id="education">
+                <h4 class="poppins-bold resumeSubtitle">Education</h4>
+                <p class="poppins-regular mb-1">Kennesaw State University</p>
+                <p class="poppins-bold mb-1">Spring 2025</p>
+                <p class="poppins-regular mb-1">BS in Computer Science</p>
+                <p class="poppins-regular mb-1">Concentration in Artificial Intelligence</p>
+                <p class="poppins-regular mb-1">Minor in Game Development</p>
+            </div>
+        </div>
+    </div>
+
+
     <footer-element
             :github="github"
             :linkedin="linkedin"

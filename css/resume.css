@@ -1,0 +1,119 @@
+
+.name {
+    padding-top: .75em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeSubtitle {
+    border-bottom: 1px solid #868686;
+    display: inline-block;
+    padding-right: 1em;
+    padding-bottom: .1em;
+}
+
+
+.degree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    color: #595959;
+    font-size: 2em;
+}
+
+#experience > ul > li, #coursework > ul > li {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-size: 1.15em;
+}
+
+ul.experience-content, ul.coursework-content {
+    padding-top: .25em;
+    padding-bottom: .25em;
+    font-size: 1em !important;
+}
+
+ul.coursework-content > li {
+    padding-top: .1em !important;
+    padding-bottom: .1em !important;
+}
+
+li.experience-content {
+}
+
+#skills > p, #tools > p {
+    margin-bottom: 1px;
+}
+
+.resume > div {
+    margin-bottom: 2em;
+}
+
+@media (min-width: 769px) {
+    .name {
+        font-size: 3em;
+        letter-spacing: .25em;
+    }
+
+    #contact, #skills, #tools, #education {
+        width: 35%;
+    }
+    #summary, #experience, #coursework {
+        width: 65%;
+    }
+
+    #contact {
+        order: 1;
+    }
+    #summary {
+        order: 2;
+    }
+    #skills {
+        order: 3;
+    }
+    #experience {
+        order: 4;
+    }
+    #tools {
+        order: 5;
+    }
+    #coursework {
+        order: 6;
+    }
+    #education {
+        order: 7;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 3em;
+        letter-spacing: .25em;
+    }
+
+    .resume > div {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+
+    #contact {
+        order: 1;
+    }
+    #summary {
+        order: 2;
+    }
+    #skills {
+        order: 4;
+    }
+    #experience {
+        order: 3;
+    }
+
+    .name {
+        text-align: center;
+    }
+}
