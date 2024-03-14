@@ -52,8 +52,13 @@ a {
     filter: drop-shadow(5px 5px 4px #a8a8a8);
 }
 
-.nav-item > a:hover {
-    color: #cecece;
+.nav-item > a:hover, .navbar-brand:hover {
+    color: #cecece !important;
+}
+
+a.navbar-brand {
+    font-size: 1.3em;
+    color: #ffffff;
 }
 
 a.mit:hover {

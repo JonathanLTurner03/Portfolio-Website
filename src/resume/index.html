@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Turner's Resume</title>
+    <script type="module" src="../scripts/main.js"></script>
+    <!-- Used in a Development Environment -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://kit.fontawesome.com/df22f9fd8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="app">
+    <!-- Add a navigation bar to the top of the page -->
+    <header-element page="resume"></header-element>
+    <div class="main-divider"></div>
+    <footer-element
+            :github="github"
+            :linkedin="linkedin"
+            :email="email"
+    ></footer-element>
+</div>
+
+<script src="../scripts/main-app.js"></script>
+
+<!-- Component Scripts -->
+<script src="../components/header-element.js"></script>
+<script src="../components/main/hero-element.js"></script>
+<script src="../components/footer-element.js"></script>
+
+
+<!-- Vue App -->
+<script>
+    const mountPoint = app.mount('#app');
+</script>
+</body>
+</html>
