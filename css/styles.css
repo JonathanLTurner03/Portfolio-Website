@@ -95,7 +95,7 @@ img.featuredImg {
     max-height: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin: auto !important;
+    margin: 1.5em !important;
 }
 
 @media (min-width: 991px) {
@@ -112,7 +112,7 @@ img.featuredImg {
     }
 
     .hero-image-container {
-        height: 85vh;
+        height: 80vh;
     }
 
     .icons {
@@ -157,6 +157,7 @@ img.featuredImg {
     .mobileFeaturedButton {
         order: 3;
         display: initial !important;
+        width: 100% !important;
     }
 
     .featuredReverseImg{
@@ -171,6 +172,10 @@ img.featuredImg {
     .hero-image {
         width: 100%;
         height: auto;
+    }
+
+    .sec-butt {
+        width: 100% !important;
     }
 
     .featuredReverseImg{
