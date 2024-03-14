@@ -23,13 +23,13 @@ app.component("featured-element", {
                             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
-                    <a href="projects" class="btn btn-secondary desktopFeaturedButton mx-lg-2">More</a>
+                    <a href="/projects" class="btn btn-secondary desktopFeaturedButton mx-lg-2">More</a>
                 </div>
-                <img src="resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg">
-                <a href="projects" class="btn btn-outline-secondary mobileFeaturedButton my-4">More</a>
+                <img src="/resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg">
+                <a href="/projects" class="btn btn-outline-secondary mobileFeaturedButton my-4">More</a>
             </div>
             <div class="row featured">
-                <img src="resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg featuredReverseImg">
+                <img src="/resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg featuredReverseImg">
                 <div class="col-lg-6">
                     <div class="mx-lg-3 featuredReverseMessage">
                         <h4 class="poppins-medium featuredTitle">Lorem ipsum</h4>
@@ -41,9 +41,9 @@ app.component("featured-element", {
                             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
-                    <a href="projects" class="btn btn-secondary desktopFeaturedButton mx-lg-3">More</a>
+                    <a href="/projects" class="btn btn-secondary desktopFeaturedButton mx-lg-3">More</a>
                 </div>
-                <a href="projects" class="btn btn-outline-secondary mobileFeaturedButton my-4">More</a>
+                <a href="/projects" class="btn btn-outline-secondary mobileFeaturedButton my-4">More</a>
             </div>
         </div>
         `
