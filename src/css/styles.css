@@ -12,16 +12,23 @@ a.header {
     font-size: 1.5em;
 }
 
+a.footer {
+    color: #cecece;
+    font-size: 1.25em;
+}
+
+a.mit {
+    color: #868686;
+    font-size: 1.1em;
+}
+
+
 a.primary, p.primary {
     color: #ffffff;
     font-size: 1em;
 }
 a.secondary, p.secondary {
     color: #DAAD86;
-}
-
-.nav-item > a:hover, li > a.currentPage {
-    color: #cecece;
 }
 
 li > a.currentPage:hover {
@@ -36,29 +43,69 @@ li > a.currentPage:hover {
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
+a {
+    text-decoration: none;
+}
+
+.hero-image-container > picture > img.hero-image {
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 4px #a8a8a8);
+}
+
+.nav-item > a:hover {
+    color: #cecece;
+}
+
+a.mit:hover {
+    color: #626262;
+}
+
 @media (min-width: 991px) {
+
+    li > a.currentPage {
+        color: #cecece;
+    }
     .hero-image-container > picture > img.hero-image {
         width: auto;
         height: 95vh;
         object-fit: cover;
         max-height: 95%;
         max-width: 95%;
-        border-radius: 10px;
-        filter: drop-shadow(5px 5px 4px #a8a8a8);
     }
 
     .hero-image-container {
         height: 80vh;
     }
+
+    .icons {
+        height: 1em;
+        width: 1em;
+    }
 }
 
 @media (max-width: 990px) {
     .nav-item {
-        /* Example rule: */
-        margin-right: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
     }
+
     .hero > .hero-image-container {
         width: 100%;
+    }
+
+    a.mit:hover {
+        color: #626262;
+    }
+
+    .nav-item:after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
     }
 }
 

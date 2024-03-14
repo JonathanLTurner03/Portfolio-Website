@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Jonathan's Portfolio</title>
+    <title>Turner's Home</title>
     <meta charset="utf-8">
     <meta name="description" content="A page to show my projects, hobbies, and general information about me.">
     <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -9,6 +9,24 @@
     <!-- Internal Scripts and Styles -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- favicons -->
+
+    <!-- Light Mode -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/resources/favicon/light/apple-touch-icon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/resources/favicon/light/favicon-32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/resources/favicon/light/favicon-16x16.png" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/src/resources/favicon/light/site.webmanifest" media="(prefers-color-scheme: light)">
+    <meta name="msapplication-TileColor" content="#da532c" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+    <!-- Dark Mode -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/resources/favicon/dark/apple-touch-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/resources/favicon/dark/favicon-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/resources/favicon/dark/favicon-16x16.png" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="/src/resources/favicon/dark/site.webmanifest" media="(prefers-color-scheme: dark)">
+    <meta name="msapplication-TileColor" content="#2d89ef" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#1e1e1e" media="(prefers-color-scheme: dark)">
 
     <!-- External Scripts and Styles -->
     <script src="https://kit.fontawesome.com/df22f9fd8e.js" crossorigin="anonymous"></script>
@@ -31,7 +49,7 @@
         <!-- Add a navigation bar to the top of the page -->
         <header-element page="projects"></header-element>
 
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-4 py-5 ">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero">
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 hero-image-container">
                     <picture>
@@ -56,6 +74,26 @@
             </div>
         </div>
         <div class="main-divider"></div>
+
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-baseline">
+                    <a href="#" class="poppins-regular footer mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        Turner
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted poppins-regular">Licensed under
+                        <a href="https://opensource.org/license/mit" class="text-decoration-none mit">MIT</a>
+                    </span>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex mr-3">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-solid fa-envelope fa-2xl"></i></a></li>
+                </ul>
+            </footer>
+        </div>
     </div>
 
     <script src="scripts/main-app.js"></script>
