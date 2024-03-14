@@ -1,6 +1,9 @@
 app.component("featured-element", {
    props: {
-
+       featured: {
+           type: Array,
+           required: true
+       }
    }, data() {
        return {
        }
