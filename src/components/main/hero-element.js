@@ -5,7 +5,11 @@ app.component('hero-element', {
         return {
 
         }
-    }, template:
+    }, methods: {
+        scrollTo(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+    },template:
          `
          <div class="container col-xxl-8 px-4 py-5 ">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero">
@@ -25,7 +29,7 @@ app.component('hero-element', {
                         non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Temp</button>
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" @click="scrollTo('featuredProjects')">Temp</button>
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Other</button>
                     </div>
                 </div>
