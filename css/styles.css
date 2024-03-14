@@ -158,6 +158,14 @@ img.featuredImg {
         order: 3;
         display: initial !important;
         width: 100% !important;
+        margin-bottom: .5em !important;
+    }
+
+    .featured {
+        margin-top: .5em !important;
+        margin-bottom: .5em !important;
+        padding-top: .5em !important;
+        padding-bottom: .5em !important;
     }
 
     .featuredReverseImg{

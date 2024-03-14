@@ -100,6 +100,10 @@ li.experience-content {
         width: 100%;
     }
 
+    #contact, #summary, #experience, #education, #skills, #tools, #coursework {
+        margin-bottom: 0;
+    }
+
     #contact {
         order: 1;
     }
