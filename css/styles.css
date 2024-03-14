@@ -191,4 +191,10 @@ img.featuredImg {
     .featuredReverseMessage {
         order: 1;
     }
+    .hero {
+        padding-top: 0 !important;
+    }
+    .hero-cont {
+        padding-top: 2em !important;
+    }
 }
