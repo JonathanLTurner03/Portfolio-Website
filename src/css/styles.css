@@ -105,14 +105,14 @@ img.featuredImg {
     }
     .hero-image-container > picture > img.hero-image {
         width: auto;
-        height: 95vh;
+        height: 96vh;
         object-fit: cover;
         max-height: 95%;
         max-width: 95%;
     }
 
     .hero-image-container {
-        height: 80vh;
+        height: 85vh;
     }
 
     .icons {
@@ -155,7 +155,15 @@ img.featuredImg {
     }
 
     .mobileFeaturedButton {
+        order: 3;
         display: initial !important;
+    }
+
+    .featuredReverseImg{
+        order: 1;
+    }
+    .featuredReverseMessage {
+        order: 2;
     }
 }
 
@@ -165,4 +173,10 @@ img.featuredImg {
         height: auto;
     }
 
+    .featuredReverseImg{
+        order: 2;
+    }
+    .featuredReverseMessage {
+        order: 1;
+    }
 }
