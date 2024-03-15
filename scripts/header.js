@@ -5,7 +5,7 @@ const headTags =
     <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- Internal Scripts and Styles -->
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/fonts.css">
 
     <!-- favicons -->

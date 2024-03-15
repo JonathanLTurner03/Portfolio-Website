@@ -1,2 +1,2 @@
-import headTags from './header.js';
+import headTags from '/scripts/header.js';
 document.head.innerHTML += headTags;
