@@ -47,8 +47,6 @@ img.featuredImg {
     }
 }
 
-
-
 @media (max-width: 990px) {
     .hero > .hero-image-container {
         width: 100%;
@@ -78,7 +76,6 @@ img.featuredImg {
         order: 2;
     }
 }
-
 
 @media (max-width: 768px) {
     .hero-image {

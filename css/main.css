@@ -1,14 +1,14 @@
 
 /* Color Palette TEMP */
 div.primary, nav.primary {
-    background-color: #659DBD;
+    background-color: #ffffff;
 }
 div.secondary {
     background-color: #BC986A;
 }
 
 a.header {
-    color: #ffffff;
+    color: #595959;
     font-size: 1.5em;
 }
 
@@ -24,7 +24,7 @@ a.mit {
 
 
 a.primary, p.primary {
-    color: #ffffff;
+    color: #575757;
     font-size: 1em;
 }
 a.secondary, p.secondary {
@@ -32,7 +32,7 @@ a.secondary, p.secondary {
 }
 
 li > a.currentPage:hover {
-    color: #ffffff;
+    color: #595959;
 }
 
 .main-divider {
@@ -48,12 +48,12 @@ a {
 }
 
 .nav-item > a:hover, .navbar-brand:hover {
-    color: #cecece !important;
+    color: #181818 !important;
 }
 
 a.navbar-brand {
     font-size: 1.3em;
-    color: #ffffff;
+    color: #595959;
 }
 
 a.mit:hover {
@@ -67,12 +67,15 @@ p {
 
 @media (min-width: 991px) {
     li > a.currentPage {
-        color: #cecece;
+        color: #181818;
     }
 
     .icons {
         height: 1em;
         width: 1em;
+    }
+    a.mit:hover {
+        color: #626262;
     }
 }
 
@@ -82,10 +85,6 @@ p {
         justify-content: center;
         align-items: center;
         letter-spacing: 2px;
-    }
-
-    a.mit:hover {
-        color: #626262;
     }
 
     .nav-item:after {
