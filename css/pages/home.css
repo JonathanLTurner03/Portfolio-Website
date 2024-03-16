@@ -83,6 +83,10 @@ img.featuredImg {
         height: auto;
     }
 
+    .hero-image-container {
+        margin-top: 0 !important;
+    }
+
     .featuredReverseImg{
         order: 2;
     }
