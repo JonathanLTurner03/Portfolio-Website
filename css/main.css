@@ -77,6 +77,31 @@ p {
     a.mit:hover {
         color: #626262;
     }
+
+
+}
+
+@media (min-width: 800px) {
+    .nav-item {
+        position: relative;
+        display: inline-block;
+    }
+
+    .nav-item::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background-color: #000; /* Change this to the color you want for the line */
+        transition: width .25s ease-in-out; /* .5s delay */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-item:hover::after {
+        width: 100%;
+    }
 }
 
 @media (max-width: 990px) {
