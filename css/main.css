@@ -87,6 +87,18 @@ p {
         display: inline-block;
     }
 
+    .currentPage::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 75%;
+        height: 2px;
+        background-color: #000; /* Change this to the color you want for the line */
+        transition: width .25s ease-in-out; /* .5s delay */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
     .nav-item::after {
         content: "";
         position: absolute;
@@ -100,7 +112,7 @@ p {
     }
 
     .nav-item:hover::after {
-        width: 100%;
+        width: 75%;
     }
 }
 
