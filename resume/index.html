@@ -42,18 +42,10 @@
                     language platforms and infrastructures.
                 </p>
             </div>
-            <div id="skills">
-                <h4 class="poppins-bold resumeSubtitle">Skills</h4>
-                <p class="poppins-regular">Java</p>
-                <p class="poppins-regular">JavaFX</p>
-                <p class="poppins-regular">Python</p>
-                <p class="poppins-regular">HTML</p>
-                <p class="poppins-regular">CSS - Bootstrap</p>
-                <p class="poppins-regular">JavaScript - VueJS</p>
-                <p class="poppins-regular">MySQL - MariaDB</p>
-                <p class="poppins-regular">Version Control</p>
-                <p class="poppins-regular">VM - VDI - VPN</p>
-            </div>
+            <list-element
+                title="skills"
+                :elements="skills">
+            </list-element>
             <div id="experience">
                 <h4 class="poppins-bold resumeSubtitle">Experience</h4>
                 <p class="poppins-regular-italic pb-0 mb-0">Geek Squad</p>
@@ -69,39 +61,16 @@
                         to internal staff and customers.</li>
                 </ul>
             </div>
-            <div id="tools">
-                <h4 class="poppins-bold resumeSubtitle">Tools</h4>
-                <p class="poppins-regular">IntelliJ IDEA</p>
-                <p class="poppins-regular">JavaDocs</p>
-                <p class="poppins-regular">PHPStorm</p>
-                <p class="poppins-regular">XCode</p>
-                <p class="poppins-regular">Visual Studio Code</p>
-                <p class="poppins-regular">Eclipse</p>
-                <p class="poppins-regular">VMBox</p>
-                <p class="poppins-regular">Git CLI - GitHub</p>
-                <p class="poppins-regular">Microsoft Office</p>
-            </div>
-            <div id="coursework">
-                <h4 class="poppins-bold resumeSubtitle">Relevant Coursework</h4>
-                <ul class="coursework-content">
-                    <li class="poppins-regular">Algorithm Design & Analysis</li>
-                    <li class="poppins-regular">Parallel & Distributed Computing</li>
-                    <li class="poppins-regular">Operating Systems</li>
-                    <li class="poppins-regular">Fundamentals of Data Communication</li>
-                    <li class="poppins-regular">Computer Organization & Architecture</li>
-                    <li class="poppins-regular">Intro to Software Engineering</li>
-                    <li class="poppins-regular">Probability & Data Analysis</li>
-
-                </ul>
-            </div>
-            <div id="education">
-                <h4 class="poppins-bold resumeSubtitle">Education</h4>
-                <p class="poppins-regular mb-1">Kennesaw State University</p>
-                <p class="poppins-bold mb-1">Spring 2025</p>
-                <p class="poppins-regular mb-1">BS in Computer Science</p>
-                <p class="poppins-regular mb-1">Concentration in Artificial Intelligence</p>
-                <p class="poppins-regular mb-1">Minor in Game Development</p>
-            </div>
+            <list-element
+                    title="tools"
+                    :elements="tools">
+            </list-element>
+            <coursework-element
+                    :coursework="coursework">
+            </coursework-element>
+            <education-element
+                :education="education">
+            </education-element>
         </div>
     </div>
 
@@ -117,7 +86,9 @@
 
 <!-- Component Scripts -->
 <script src="/components/header-element.js"></script>
-<script src="/components/main/hero-element.js"></script>
+<script src="/components/resume/list-element.js"></script>
+<script src="/components/resume/coursework-element.js"></script>
+<script src="/components/resume/education-element.js"></script>
 <script src="/components/footer-element.js"></script>
 
 

@@ -27,7 +27,47 @@ const app = Vue.createApp({
                         + "laborum.",
                     imgsrc: "/resources/images/projects/placeholder.png"
                 }
-                ]
+            ],
+            education: {
+                school: 'Kennesaw State University',
+                gradDate: 'Spring 2025',
+                degreeType: "BS",
+                degree: 'Computer Science',
+                concentration: 'Artificial Intelligence',
+                minor: 'Game Development'
+            },
+            skills: [
+                'Java',
+                'JavaFX',
+                'Python',
+                'HTML',
+                'CSS - Bootstrap',
+                'JavaScript - VueJS',
+                'MySQL - MariaDB',
+                'Version Control',
+                'VM - VDI - VPN',
+            ],
+            tools: [
+                'Tools',
+                'IntelliJ IDEA',
+                'JavaDocs',
+                'PHPStorm',
+                'XCode',
+                'Visual Studio Code',
+                'Eclipse',
+                'VMBox',
+                'Git CLI - GitHub',
+                'Microsoft Office'
+            ],
+            coursework: [
+                'Algorithm Design & Analysis',
+                'Parallel & Distributed Computing',
+                'Operating Systems',
+                'Fundamentals of Data Communication',
+                'Computer Organization & Architecture',
+                'Intro to Software Engineering',
+                'Probability & Data Analysis'
+            ]
         }
     }
 });
