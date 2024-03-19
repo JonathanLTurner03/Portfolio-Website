@@ -33,7 +33,7 @@ app.component('footer-element', {
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-baseline">
                     <a :href="githubRepoLink" class="poppins-regular footer mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-                        Repo
+                        Source
                     </a>
                     <span class="mb-3 mb-md-0 text-muted poppins-regular">Licensed under
                         <a href="https://opensource.org/license/mit" class="text-decoration-none mit">MIT</a>

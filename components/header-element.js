@@ -21,8 +21,10 @@ app.component('header-element', {
 <header id="header">
     <nav class="navbar navbar-expand-lg primary">
             <div class="container">
-                <a class="navbar-brand poppins-medium header primary" href="/">Turner</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand poppins-medium header primary" href="/">Jonathan Turner</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse text-end" id="navbarSupportedContent">
