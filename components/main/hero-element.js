@@ -11,7 +11,7 @@ app.component('hero-element', {
         }
     },template:
          `
-         <div class="container col-xxl-8 px-4 py-5 hero-cont">
+         <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 hero-cont">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5 hero">
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 hero-image-container">
                     <picture>
