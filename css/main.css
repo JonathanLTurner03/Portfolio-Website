@@ -134,3 +134,23 @@ p {
     }
 }
 
+@media (max-width: 600px) {
+    #footer {
+        justify-content: center !important;
+    }
+    #social-links {
+        width: 100%;
+        justify-content: center !important;
+    }
+}
+
+@media (min-width: 768px) {
+    @media (max-width: 991px) {
+        #repo-info {
+            width: 50% !important;
+            margin-top: 0;
+        }
+    }
+
+}
+
