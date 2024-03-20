@@ -9,7 +9,7 @@ app.component("featured-element", {
        }
    }, template:
         `
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-8 px-sm-4 py-2 pt-4">
             <h2 id="featuredProjects" class="poppins-extrabold pb-2 border-bottom">Featured Projects</h2>
             <div class="row featured">
                 <div class="col-lg-6">
