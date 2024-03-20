@@ -11,7 +11,7 @@ app.component("featured-element", {
         `
         <div class="container col-xxl-8 px-sm-4 py-2 pt-4">
             <h2 id="featuredProjects" class="poppins-extrabold pb-2 border-bottom">Featured Projects</h2>
-            <div class="row featured">
+            <div class="row featured mt-lg-4">
                 <div class="col-lg-6">
                     <div class="mx-lg-2">
                         <h4 class="poppins-medium featuredTitle">Lorem ipsum</h4>
@@ -28,7 +28,7 @@ app.component("featured-element", {
                 <img src="/resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg">
                 <a href="/projects" class="btn btn-outline-secondary mobileFeaturedButton my-4">More</a>
             </div>
-            <div class="row featured">
+            <div class="row featured mt-lg-4">
                 <img src="/resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg featuredReverseImg">
                 <div class="col-lg-6">
                     <div class="mx-lg-3 featuredReverseMessage">
