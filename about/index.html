@@ -3,6 +3,8 @@
 <head>
     <title>About Me</title>
     <script type="module" src="../scripts/main.js"></script>
+
+    <link rel="stylesheet" href="/css/pages/about.css">
     <!-- Used in a Development Environment -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://kit.fontawesome.com/df22f9fd8e.js" crossorigin="anonymous"></script>
@@ -18,6 +20,7 @@
 <div id="app">
     <!-- Add a navigation bar to the top of the page -->
     <header-element page="about"></header-element>
+    <about-me></about-me>
     <div class="main-divider"></div>
     <footer-element
             :github="github"
@@ -30,7 +33,7 @@
 
 <!-- Component Scripts -->
 <script src="/components/header-element.js"></script>
-<script src="/components/main/hero-element.js"></script>
+<script src="/components/about/about-me.js"></script>
 <script src="/components/footer-element.js"></script>
 
 
