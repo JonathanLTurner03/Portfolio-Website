@@ -36,9 +36,6 @@ app.component('header-element', {
                             <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'projects' }"  href="/projects">Projects</a>
                         </li>
                         <li class="nav-item collapsed-nav-item">
-                            <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'hobbies' }" href="/hobbies">Hobbies</a>
-                        </li>
-                        <li class="nav-item collapsed-nav-item">
                             <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'resume' }" href="/resume">Resume</a>
                         </li>
                     </ul>
