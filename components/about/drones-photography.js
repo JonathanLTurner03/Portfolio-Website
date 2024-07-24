@@ -1,4 +1,4 @@
-app.component('about-me', {
+app.component('drones-photography', {
     props: {
 
     }, data() {
@@ -7,8 +7,8 @@ app.component('about-me', {
         }
     },template:
         `
-         <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 about-me-cont" style="height: 90vh; justify-content: center">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 about" style="height: 100%">
+         <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 about-me-cont">
+            <div class="row flex-lg-row align-items-center g-5 py-5 about">
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 about-img">
                     <picture>
                         <source srcset="/" media="(max-width: 991px)">
@@ -32,11 +32,6 @@ app.component('about-me', {
                         <br>
                     </p>
                 </div>
-            </div>
-            <div class="floating">
-                <p class="notice text-center">
-                    <em> Scroll to learn more about my hobbies and interests</em>
-                </p>
             </div>
         </div>
         `
