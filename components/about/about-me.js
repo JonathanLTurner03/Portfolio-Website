@@ -12,7 +12,7 @@ app.component('about-me', {
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 about-img">
                     <picture>
                         <source srcset="/" media="(max-width: 991px)">
-                        <img src="/resources/images/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
+                        <img src="/resources/images/about-me/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
                         loading="lazy">
                     </picture>
                 </div>
@@ -28,8 +28,6 @@ app.component('about-me', {
                         However, I am developing my skills in many other areas of software development, such as Python,
                         PHP, JS/VueJS, HTML/CSS, and Bootstrap. I am always looking for new opportunities to learn
                         and develop my skills within the industry and various hobbies. 
-                        <br>
-                        <br>
                     </p>
                 </div>
             </div>

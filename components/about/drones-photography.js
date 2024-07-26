@@ -12,24 +12,24 @@ app.component('drones-photography', {
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 about-img">
                     <picture>
                         <source srcset="/" media="(max-width: 991px)">
-                        <img src="/resources/images/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
+                        <img src="/resources/images/about-me/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
                         loading="lazy">
                     </picture>
                 </div>
                 <div class="col-lg-6">
                     <h1 class="display-7 lh-1 mb-3 poppins-extrabold" style="font-weight: bold">
-                        // About Me
+                        // Drones & Photography
                     </h1>
                     <p class="lead poppins-regular">
-                        My name is Jonathan, and I am a Computer Science student at Kennesaw State University with a
-                        concentration in Artificial Intelligence. I have a love for learning, always trying to apply
-                        new ideas and concepts in my work. I am always looking to learn new languages and frameworks
-                        to expand my knowledge and skill set. I currently have a strong foundation in Java and JavaFX.
-                        However, I am developing my skills in many other areas of software development, such as Python,
-                        PHP, JS/VueJS, HTML/CSS, and Bootstrap. I am always looking for new opportunities to learn
-                        and develop my skills within the industry and various hobbies. 
+                        For the longest I could remember, I have always had a fascination with perspective. I have always
+                        been interested in the way things look from different, whether it is how the sun refracts off 
+                        the water, or how the clouds look from above. This sparked my interest in drones and photography.
+                        Photography has always been a hobby of mine, and I have always enjoyed long exposure shots of the
+                        night sky and the stars. This hobby has allowed me to explore new places and capture moments that
+                        I would not have been able to see otherwise. 
                         <br>
-                        <br>
+                        From this love of photography, spawned a new interest of mine, drones. Drones have allowed me to
+                        not only capture unique perspectives of the world around me 
                     </p>
                 </div>
             </div>
