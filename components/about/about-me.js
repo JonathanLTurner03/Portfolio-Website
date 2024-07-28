@@ -31,9 +31,9 @@ app.component('about-me', {
                     </p>
                 </div>
             </div>
-            <div class="floating">
+            <div class="floating poppins-regular-italic">
                 <p class="notice text-center">
-                    <em> Scroll to learn more about my hobbies and interests</em>
+                     Scroll to learn more about my hobbies and interests
                 </p>
             </div>
         </div>
