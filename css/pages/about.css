@@ -10,8 +10,6 @@
     filter: drop-shadow(5px 5px 4px #a8a8a8);
 }
 
-
-
 .photography-imgs {
     overflow: hidden;
     position: relative;
@@ -35,6 +33,15 @@
     }
 }
 
+@keyframes scroll-horizontal {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% * 15.75));
+    }
+}
+
 .scrolling-container {
     position: relative; /* Ensure it is below the fade effects */
     display: flex;
@@ -42,29 +49,6 @@
     animation: scroll-vertical 90s linear infinite; /* Ensure the animation runs infinitely */
     gap: 1em; /* Add gap between images */
     animation-play-state: running; /* Ensure animation is running by default */
-}
-
-.photography-imgs::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0; /* Ensure the top fade effect is positioned correctly */
-    height: 5%; /* Adjust height for fade effect */
-    pointer-events: none;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
-    z-index: 1; /* Ensure it is above the images */
-}
-
-.photography-imgs::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0; /* Ensure the bottom fade effect is positioned correctly */
-    height: 5%; /* Adjust height for fade effect */
-    pointer-events: none;
-    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
 .notice {
@@ -87,15 +71,90 @@
 
 @media (min-width: 991px) {
     .about-img > picture > img.self-portrait {
-        width: 90%;
+        width: 80%;
     }
     .photography-imgs > picture > .p-img {
         width: 100%;
     }
+
+    .photography-imgs::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0; /* Ensure the top fade effect is positioned correctly */
+        height: 5%; /* Adjust height for fade effect */
+        pointer-events: none;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        z-index: 1; /* Ensure it is above the images */
+    }
+
+    .photography-imgs::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0; /* Ensure the bottom fade effect is positioned correctly */
+        height: 5%; /* Adjust height for fade effect */
+        pointer-events: none;
+        background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
 }
 
 @media (max-width: 990px) {
-    .about-img > picture > img.self-portrait, .photography-imgs > picture > .p-img {
+    .about-img > picture > img.self-portrait {
         width: 100%;
+    }
+
+    .scrolling-container {
+        flex-direction: row;
+        animation: scroll-horizontal 120s linear infinite; /* Adjust duration for smooth scrolling */
+        width: calc(100vw * 8); /* Adjust width to accommodate all images */
+    }
+
+    .photography-imgs {
+        height: calc(30vh + 1em);
+        display: flex;
+        overflow: hidden;
+    }
+
+    .notice {
+        ;
+    }
+
+    .photography-imgs::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 4%; /* Adjust width for fade effect */
+        pointer-events: none;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+        z-index: 1; /* Ensure it is above the images */
+    }
+
+    .photography-imgs::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 4%; /* Adjust width for fade effect */
+        pointer-events: none;
+        background: linear-gradient(to left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    }
+
+    .photography-imgs > picture {
+        flex: 0 0 auto;
+        width: 100vw; /* Ensure each picture takes the full viewport width */
+    }
+
+    img.p-img {
+        width: 90vw;
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure the image covers the container */
+        filter: drop-shadow(5px 5px 4px #a8a8a8); /* Small drop shadows */
+        border-radius: 1em;
     }
 }
