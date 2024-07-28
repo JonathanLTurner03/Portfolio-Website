@@ -87,7 +87,7 @@
 
 @media (min-width: 991px) {
     .about-img > picture > img.self-portrait {
-        width: 70%;
+        width: 90%;
     }
     .photography-imgs > picture > .p-img {
         width: 100%;
