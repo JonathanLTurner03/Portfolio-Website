@@ -1,4 +1,4 @@
-app.component('drones', {
+app.component('photography', {
     props: {
 
     }, data() {
@@ -8,11 +8,18 @@ app.component('drones', {
     },template:
         `
          <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 about-me-cont">
-            <div class="row flex-lg-row align-items-center g-5 py-5 about">
-                <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 about-img">
+            <div class="row flex-lg-row align-items-center g-5 py-5 about border-top">
+                <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 photography-imgs">
                     <picture>
-                        <source srcset="/" media="(max-width: 991px)">
-                        <img src="/resources/images/about-me/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
+                        <img src="/resources/images/about-me/stars.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        loading="lazy">
+                    </picture>
+                    <picture>
+                        <img src="/resources/images/about-me/birb.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        loading="lazy">
+                    </picture>
+                    <picture>
+                        <img src="/resources/images/about-me/still.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                 </div>
