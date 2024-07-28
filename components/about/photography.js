@@ -21,7 +21,7 @@ app.component('photography', {
                 <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 photography-imgs">
                 <div class="scrolling-container">
                     <picture>
-                        <img src="/resources/images/about-me/stars.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/stars.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
@@ -29,11 +29,11 @@ app.component('photography', {
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/birb.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/birb.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/birbtakeoff.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/birbtakeoff.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
@@ -41,20 +41,20 @@ app.component('photography', {
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/still.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/still.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/sun-lens-flare.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/sun-lens-flare.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/stars 2.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/stars%202.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <!-- Repeating for animation -->
                     <picture>
-                        <img src="/resources/images/about-me/stars.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/stars.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
@@ -62,23 +62,23 @@ app.component('photography', {
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/birb.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/birb.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/birbtakeoff.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/birbtakeoff.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/still.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/still.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/sun-lens-flare.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/sun-lens-flare.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                     <picture>
-                        <img src="/resources/images/about-me/stars 2.jpg" class="d-block mx-md-auto img-fluid p-img"
+                        <img src="/resources/images/about-me/photography/stars%202.jpg" class="d-block mx-md-auto img-fluid p-img"
                         loading="lazy">
                     </picture>
                 </div>

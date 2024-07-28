@@ -31,7 +31,7 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-50%); /* Adjust to ensure continuous scrolling */
+        transform: translateY(-50%);
     }
 }
 
