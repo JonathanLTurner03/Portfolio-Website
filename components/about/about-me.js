@@ -7,11 +7,11 @@ app.component('about-me', {
         }
     },template:
         `
-         <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 about-me-cont" style="height: 90vh; justify-content: center">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 about" style="height: 100%">
-                <div class="col-10 col-sm-8 col-lg-6 pr-sm-5 about-img">
+         <div class="container col-xxl-8 px-4 py-xxl-4 py-lg-3 about-me-cont" style="min-height: 90vh; justify-content: center">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5 about">
+                <div class="col-10 col-md-8 col-lg-6 pr-sm-5 about-img">
                     <picture>
-                        <source srcset="/" media="(max-width: 991px)">
+                        <source srcset="/resources/images/about-me/self-portrait-mobile.jpg" media="(max-width: 991px)">
                         <img src="/resources/images/about-me/self-portrait.jpg" class="d-block mx-md-auto img-fluid self-portrait" 
                         loading="lazy">
                     </picture>
