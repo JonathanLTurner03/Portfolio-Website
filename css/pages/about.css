@@ -103,6 +103,8 @@
     .about {
         min-height: 85vh;
         height: fit-content;
+        padding: 0;
+        margin: 0;
     }
 }
 
