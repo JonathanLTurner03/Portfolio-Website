@@ -23,10 +23,10 @@ app.component('about-me', {
                     <p class="lead poppins-regular">
                         My name is Jonathan, and I am a Computer Science student at Kennesaw State University with a
                         concentration in Artificial Intelligence. I have a love for learning, always trying to apply
-                        new ideas and concepts in my work. I am always looking to learn new languages and frameworks
+                        new ideas and concepts in my work. I am constantly looking to learn new languages and frameworks
                         to expand my knowledge and skill set. I currently have a strong foundation in Java and JavaFX.
                         However, I am developing my skills in many other areas of software development, such as Python,
-                        PHP, JS/VueJS, HTML/CSS, and Bootstrap. I am always looking for new opportunities to learn
+                        PHP, JS/VueJS, HTML/CSS, and Bootstrap. I am looking for new opportunities to learn
                         and develop my skills within the industry and various hobbies. 
                     </p>
                 </div>
