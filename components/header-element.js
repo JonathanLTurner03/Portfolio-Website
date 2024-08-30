@@ -32,9 +32,9 @@ app.component('header-element', {
                         <li class="nav-item collapsed-nav-item">
                             <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'about' }" href="/about">About</a>
                         </li>
-                        <li class="nav-item collapsed-nav-item">
+                        <!-- <li class="nav-item collapsed-nav-item">
                             <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'projects' }"  href="/projects">Projects</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item collapsed-nav-item">
                             <a class="nav-link primary poppins-regular" :class="{ currentPage: page === 'resume' }" href="/resume">Resume</a>
                         </li>
