@@ -32,7 +32,7 @@ app.component('hero-element', {
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2" 
-                            @click="scrollTo('featuredProjects')" title="In Development">Featured Projects</button>
+                            @click="scrollTo('featuredProjects')" title="Scrolls to Feature Projects">Featured Projects</button>
                         <a href="./resume"><button type="button" class="btn btn-outline-secondary btn-lg px-4"
                             style="width: 100%">Resume</button></a>
                     </div>
