@@ -32,7 +32,7 @@ app.component("featured-element", {
                 <a href="/projects" class="btn btn-outline-secondary mobileFeaturedButton mb-4">Video Demo - Coming Soon</a>
             </div>
             <div class="row featured mt-lg-4">
-                <img src="/resources/images/projects/placeholder.png" alt="Placeholder" class="col-lg-6 featuredImg featuredReverseImg">
+                <img src="/resources/images/projects/StyxMix-Hero-Banner.png" alt="Placeholder" class="col-lg-6 featuredImg featuredReverseImg">
                 <div class="col-lg-6">
                     <div class="mx-lg-3 featuredReverseMessage">
                         <h4 class="poppins-medium featuredTitle">StyxMix - <em>WIP</em></h4>
