@@ -38,11 +38,10 @@ app.component("featured-element", {
                         <h4 class="poppins-medium featuredTitle">StyxMix - <em>WIP</em></h4>
                         <h5 class="poppins-light-italic featuredSubTitle mb-2 pb-2 border-bottom">Windows Mixer Mapping & Controller</h5>
                         <p class="poppins-regular">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            A program built to manage Windows Core Audio remotely and wirelessly. This project focuses on grouping individual application audio streams 
+                            and maintaining consistent volume levels across them, whether in software or through a motorized fader mixer. StyxMix is written in Python 
+                            and leverages pycaw for Core Audio control, pyzmq (ZeroMQ) for a publish-subscribe messaging layer, and zeroconf for zero-configuration 
+                            network pairing. It uses a Raspberry Pi Zero 2 W as the hardware endpoint, enabling real-time audio balancing in multi-application environments.
                         </p>
                     </div>
                     <a href="https://github.com/JonathanLTurner03/StyxMix" target="_blank" class="btn btn-secondary desktopFeaturedButton mx-lg-2">Project Repo <i class="fa-brands fa-github fa-xl"></i></a>
