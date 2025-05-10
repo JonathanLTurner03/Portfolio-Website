@@ -4,7 +4,7 @@ const app = Vue.createApp({
             // Socials
             github: 'JonathanLTurner03',
             linkedin: 'LTurnerJonathan',
-            email: 'turner@atlantissrv.com',
+            email: 'LTurnerJonathan@gmail.com',
             // Projects
             featuredProjects: [
                 {

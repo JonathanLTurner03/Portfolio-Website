@@ -11,6 +11,14 @@ h4.featuredTitle {
     font-size: 1.7em;
 }
 
+h5.featuredSubTitle {
+    font-size: 1.4em;
+}
+
+.demo-cancelled:hover {
+    cursor: not-allowed;
+}
+
 img.featuredImg {
     margin: auto;
     object-fit: contain;

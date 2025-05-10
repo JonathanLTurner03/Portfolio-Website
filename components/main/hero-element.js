@@ -23,18 +23,17 @@ app.component('hero-element', {
                 <div class="col-lg-6">
                     <h1 class="display-5 lh-1 mb-3 poppins-extrabold" style="font-weight: bold">Hi, I'm Jonathan</h1>
                     <p class="lead poppins-regular">
-                        I am a Computer Science student at Kennesaw State University with a concentration in Artificial
-                        Intelligence. I am aspiring software developer with a focus Machine Learning looking for new 
-                        opportunities to learn and develop my skills within the industry. I have a strong foundation 
-                        in Java, JavaFX, and growing interest in Python, PHP, and various Web-based frameworks. 
-                        I am currently seeking internships for the Fall of 2024 semester to allow for growth and 
-                        development with current skills and new skills.
+                        I'm a recent graduate of Kennesaw State University, where I earned a B.S. in Computer Science with a concentration 
+                        in Artificial Intelligence. As an aspiring software developer specializing in machine learning, I'm eager to apply 
+                        and expand my skills in real-world projects. I have a solid background in Java and Python, and I'm growing my proficiency 
+                        in C#, C++, MySQL, and web development frameworks like VueJS and Bootstrap. I'm actively seeking full-time opportunities to 
+                        contribute, learn, and advance my abilities within the tech industry.
                     </p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <button type="button" class="btn btn-secondary btn-lg px-4 me-md-2" 
-                            @click="scrollTo('featuredProjects')" title="In Development">Featured Projects</button>
-                        <a href="./resume"><button type="button" class="btn btn-outline-secondary btn-lg px-4"
-                            style="width: 100%">Resume</button></a>
+                            @click="scrollTo('featuredProjects')" title="Scrolls to Feature Projects">Featured Projects</button>
+                        <a href="./resume/resume.pdf"><button type="button" class="btn btn-outline-secondary btn-lg px-4"
+                            style="width: 100%">Resume <i class="fa fa-external-link" aria-hidden="true"></i></button></a>
                     </div>
                 </div>
             </div>
