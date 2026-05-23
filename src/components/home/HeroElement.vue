@@ -22,13 +22,13 @@ function scrollTo(id: string) {
           Hi, I'm Jonathan
         </h1>
         <p class="lead poppins-regular">
-          I'm a recent graduate of Kennesaw State University, where I earned a B.S. in Computer
-          Science with a concentration in Artificial Intelligence. As an aspiring software developer
-          specializing in machine learning, I'm eager to apply and expand my skills in real-world
-          projects. I have a solid background in Java and Python, and I'm growing my proficiency in
-          C#, C++, MySQL, and web development frameworks like VueJS and Bootstrap. I'm actively
-          seeking full-time opportunities to contribute, learn, and advance my abilities within the
-          tech industry.
+          I believe the most interesting problems in tech live at the boundary of software and
+          hardware. With a B.S. in Computer Science (AI concentration) from Kennesaw State
+          University, I've built my career around that boundary, working in autonomous systems and
+          robotics, developing edge AI pipelines, and engineering reliable integrations between
+          intelligent software and the physical world. I'm always open to new opportunities,
+          collaborations, and conversations, especially where the work is challenging and the
+          learning never stops.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <button

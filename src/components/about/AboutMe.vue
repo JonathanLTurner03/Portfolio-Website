@@ -21,13 +21,12 @@ import SelfPortraitDesktop from '@/assets/images/aboutme/self-portrait.jpg'
       <div class="col-lg-6">
         <h1 class="display-7 lh-1 mb-3 poppins-extrabold" style="font-weight: bold">// About Me</h1>
         <p class="lead poppins-regular">
-          My name is Jonathan, and I am a Computer Science student at Kennesaw State University with
-          a concentration in Artificial Intelligence. I have a love for learning, always trying to
-          apply new ideas and concepts in my work. I am constantly looking to learn new languages
-          and frameworks to expand my knowledge and skill set. I currently have a strong foundation
-          in Java and JavaFX. However, I am developing my skills in many other areas of software
-          development, such as Python, PHP, JS/VueJS, HTML/CSS, and Bootstrap. I am looking for new
-          opportunities to learn and develop my skills within the industry and various hobbies.
+          Hey, I'm Jonathan. I'm a computer scientist with a deep love for learning not just in
+          the professional sense, but across everything I do. By day I work at the intersection of
+          autonomous systems and hardware integration; by night I'm usually tinkering with FPV
+          drones, laser engravers, 3D printers, or whatever new rabbit hole has caught my attention.
+          I graduated from Kennesaw State University with a B.S. in Computer Science (AI
+          concentration), and I've carried that curiosity into every project since.
         </p>
       </div>
     </div>
