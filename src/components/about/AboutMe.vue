@@ -21,10 +21,10 @@ import SelfPortraitDesktop from '@/assets/images/aboutme/self-portrait.jpg'
       <div class="col-lg-6">
         <h1 class="display-7 lh-1 mb-3 poppins-extrabold" style="font-weight: bold">// About Me</h1>
         <p class="lead poppins-regular">
-          Hey, I'm Jonathan. I'm a computer scientist with a deep love for learning not just in
+          Hey, I'm Jonathan. I'm a computer scientist with a appetite for learning not just in
           the professional sense, but across everything I do. By day I work at the intersection of
           autonomous systems and hardware integration; by night I'm usually tinkering with FPV
-          drones, laser engravers, 3D printers, or whatever new rabbit hole has caught my attention.
+          drones, laser engravers, 3D printers, or whatever interest has caught my attention.
           I graduated from Kennesaw State University with a B.S. in Computer Science (AI
           concentration), and I've carried that curiosity into every project since.
         </p>
