@@ -1,0 +1,188 @@
+<script setup lang="ts">
+import PhotographyElement from '@/components/about/PhotographyElement.vue'
+import AboutMe from '@/components/about/AboutMe.vue'
+import DronesElement from '@/components/about/DronesElement.vue'
+</script>
+
+<template>
+  <AboutMe></AboutMe>
+  <div class="main-divider"></div>
+  <DronesElement></DronesElement>
+  <PhotographyElement></PhotographyElement>
+</template>
+
+<style>
+.about-img > picture > img.self-portrait {
+  border-radius: 1em;
+  filter: drop-shadow(5px 5px 4px #a8a8a8);
+}
+
+.photography-imgs > picture > img.p-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em; /* Rounded borders */
+  filter: drop-shadow(5px 5px 4px #a8a8a8);
+}
+
+.photography-imgs {
+  overflow: hidden;
+  position: relative;
+  height: 70vh; /* Set max height to 70vh */
+}
+
+.scrolling-container > picture {
+  flex: 0 0 auto;
+  border-radius: 1em; /* Rounded borders */
+  overflow: hidden; /* Ensure the border radius is applied */
+  filter: drop-shadow(5px 5px 4px #a8a8a8); /* Small drop shadows */
+}
+
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% * 15.75));
+  }
+}
+
+.scrolling-container {
+  position: relative; /* Ensure it is below the fade effects */
+  display: flex;
+  flex-direction: column;
+  animation: scroll-vertical 90s linear infinite; /* Ensure the animation runs infinitely */
+  gap: 1em; /* Add gap between images */
+  animation-play-state: running; /* Ensure animation is running by default */
+}
+
+.notice {
+  font-size: 0.5em;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  font-size: 2.25em;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (min-width: 991px) {
+  .about-img > picture > img.self-portrait {
+    width: 80%;
+  }
+  .photography-imgs > picture > .p-img {
+    width: 100%;
+  }
+
+  .photography-imgs::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; /* Ensure the top fade effect is positioned correctly */
+    height: 5%; /* Adjust height for fade effect */
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    z-index: 1; /* Ensure it is above the images */
+  }
+
+  .photography-imgs::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Ensure the bottom fade effect is positioned correctly */
+    height: 5%; /* Adjust height for fade effect */
+    pointer-events: none;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+
+  .about {
+    min-height: 85vh;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .about-img > picture > img.self-portrait {
+    width: 100%;
+  }
+
+  .about-img {
+    max-width: 100vw;
+    min-width: 100vw;
+  }
+
+  .scrolling-container {
+    flex-direction: row;
+    animation: scroll-horizontal 120s linear infinite; /* Adjust duration for smooth scrolling */
+    width: calc(100vw * 8); /* Adjust width to accommodate all images */
+  }
+
+  .photography-imgs {
+    height: calc(30vh + 1em);
+    display: flex;
+    overflow: hidden;
+  }
+
+  .photography-imgs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 4%; /* Adjust width for fade effect */
+    pointer-events: none;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    z-index: 1; /* Ensure it is above the images */
+  }
+
+  .photography-imgs::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 4%; /* Adjust width for fade effect */
+    pointer-events: none;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+  }
+
+  .photography-imgs > picture {
+    flex: 0 0 auto;
+    width: 100vw; /* Ensure each picture takes the full viewport width */
+  }
+
+  img.p-img {
+    width: 90vw;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container */
+    filter: drop-shadow(5px 5px 4px #a8a8a8); /* Small drop shadows */
+    border-radius: 1em;
+  }
+}
+</style>
