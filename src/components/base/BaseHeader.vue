@@ -43,7 +43,7 @@ const route = useRoute()
                 class="nav-link primary poppins-regular"
                 :class="{ currentPage: route.path === '/resume' }"
                 target="_blank"
-                href="/resume/resume.pdf"
+                href="/resume.pdf"
                 >Resume</a
               >
             </li>

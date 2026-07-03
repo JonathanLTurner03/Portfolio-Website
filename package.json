@@ -21,6 +21,7 @@
     "bootstrap": "^5.3.8",
     "bootstrap-vue-next": "^0.45.4",
     "vue": "^3.5.32",
+    "vue-pdf-embed": "^2.1.5",
     "vue-router": "^5.0.4"
   },
   "devDependencies": {

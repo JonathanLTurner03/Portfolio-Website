@@ -39,7 +39,7 @@ function scrollTo(id: string) {
           >
             Featured Projects
           </button>
-          <a href="./resume/resume.pdf"
+          <a href="./resume.pdf"
             ><button
               type="button"
               class="btn btn-outline-secondary btn-lg px-4"
