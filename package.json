@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
-    "deploy": "npm run build && rsync -avz --delete dist/ turner@aiolios:/opt/portfolio-site",
+    "deploy": "npm run build && wsl exec rsync -avz --delete dist/ turner@aiolios:/opt/portfolio-site",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
